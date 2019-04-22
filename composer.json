@@ -1,5 +1,5 @@
 {
-    "name": "bariew/yii2-invisible-recaptcha",
+    "name": "sdelfi/yii2-invisible-recaptcha",
     "description": "Validates form post with Goolge Invisible Recaptcha",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","validation","recaptcha"],
@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "bariew\\invisibleRecaptcha\\": ""
+            "sdelfi\\invisibleRecaptcha\\": ""
         }
     }
 }
