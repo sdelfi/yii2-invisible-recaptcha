@@ -5,7 +5,7 @@
  * @license http://www.opensource.org/licenses/bsd-license.php
  */
 
-namespace bariew\invisibleRecaptcha;
+namespace sdelfi\invisibleRecaptcha;
 
 use Yii;
 use yii\helpers\Json;

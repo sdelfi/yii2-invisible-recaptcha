@@ -5,7 +5,7 @@
  * @license http://www.opensource.org/licenses/bsd-license.php
  */
 
-namespace bariew\invisibleRecaptcha;
+namespace sdelfi\invisibleRecaptcha;
 
 use yii\helpers\Html;
 use yii\widgets\InputWidget;
