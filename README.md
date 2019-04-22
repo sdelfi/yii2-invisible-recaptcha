@@ -17,7 +17,7 @@ php composer.phar require --prefer-dist bariew/yii2-invisible-recaptcha "*"
 or add
 
 ```
-"bariew/yii2-invisible-recaptcha": "*"
+"sdelfi/yii2-invisible-recaptcha": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -52,7 +52,7 @@ Usage
 ```
 3. Use widget instead of ActiveForm submit button in your view:
 ```
-    <?= $form->field($model, 'verifyCode')->widget(\bariew\invisibleRecaptcha\InvisibleRecaptchaWidget::className(), [
+    <?= $form->field($model, 'verifyCode')->widget(\sdelfi\invisibleRecaptcha\InvisibleRecaptchaWidget::className(), [
         'buttonText' => 'Save' ,
         'options' => ['class' => 'btn btn-primary'],
     ]); ?>
